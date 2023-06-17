@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <style>
+       
+    body{
+        background-color:rgba(237, 19, 233, 0.5)
+    }
+    div.main{
+        width: 400px;
+        margin: 100px auto 100px auto;
+    }
+   
+   h1{
+    text-align: center;
+
+   }
+   #box{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    margin: 5px 0;
+    outline: none;
+    box-sizing: border-box;
+   }
+   .form{
+    background: rgba(55, 52, 52, 0.2);
+    width: 100%;
+    padding: 60px;
+    font-style: italic;
+    font:bold
+    text-align:left;
+    border-radius: 10px;   
+    box-shadow: 20px black;
+    }
+   label{
+    width: 80px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+}
+   
+  #submit{
+   width:75%;
+    margin-top: 50px;
+   padding: 5px; 
+   border-style: none;
+   border-radius: 10px;
+   
+    background-color:rgba(255, 253, 254, 0.996);
+   
+   }
+   #about{
+    padding: 15px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    margin: 5px 0;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 20px;
+    
+    
+   }
+   #select{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: aliceblue;
+   
+    outline: none;
+    box-sizing: border-box;
+    margin-left: 40px;
+   }
+   #language{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: aliceblue;
+    margin: 5px 5px;
+    outline: none;
+    box-sizing: border-box;
+   }
+
+   }
+
+
+   
+      
+    </style>
+    
+<head>
+    <title>html form</title>
+</head>
+<body>
+    <div class="main">
+        <div class="form">
+            <h1><b>fill the form</b></h1>
+            <label for="box">Name: </label>
+            <input type="text" id="box" placeholder="enter you first name"><br><br>
+        
+            <label for="box">Email:</label>
+            <input type="text" id="box" placeholder="enter your name"><br><br>
+        
+            <label for="box">Password:</label>
+            <input type="text" id="box" placeholder="phoneno"><br><br>
+        
+            <label for="box">Phone number:</label>
+            <input type="text" id="box" placeholder="email" ><br><br>
+        
+           
+        
+            <label for="gender">gender:-</label>
+           male <input type="radio" id="gender">
+          female<input type="radio" id="gender">
+           other <input type="radio" id="gender"><br> <br>
+           
+           <label for="language">language:</label>
+           <select name="Language" id="language" >
+            <option >select</option>
+            <option value="T">telugu</option>
+            <option value="H">hindi</option>
+            <option value="E">english</option>
+            <option value="K">kannada</option>
+           </select><br>
+        
+            <label for="about">about</label>
+            <textarea name="message" id="about"></textarea>
+        
+            <input type="button" value="submit" id="submit">
+            
+           
+        </div>
+         </div>
+
+
+  
+
+</body>
+
+
+</html>
